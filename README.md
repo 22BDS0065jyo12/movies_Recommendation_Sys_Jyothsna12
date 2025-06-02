@@ -82,3 +82,13 @@ similarity.pkl
 Stores a precomputed cosine similarity matrix (2D array of similarity scores between movies).
 
 These files are derived from the TMDB 5000 Movie Dataset (movies and credits) and processed using a Jupyter Notebook pipeline.
+## Screenshots
+
+### 🔍 Avatar
+![Avatar](Screenshot 2025-06-02 152507.png)
+
+### 🎯 Recommendation Output
+![Recommendation Output](Screenshot 2025-06-02 152526.png)
+
+### 🎯 Man of Steel
+![Man of steel](Screenshot 2025-06-02 152604.png)
