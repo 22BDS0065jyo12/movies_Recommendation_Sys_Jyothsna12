@@ -86,10 +86,10 @@ These files are derived from the TMDB 5000 Movie Dataset (movies and credits) an
 ## Screenshots
 
 ### 🔍 Avatar
-![Avatar](Screenshot%2025-06-02%152507.png)
+![Avatar](./Screenshot%2025-06-02%152507.png)
 
 ### 🎯 Recommendation Output
-![Recommendation Output](Screenshot%2025-06-02%152526.png)
+![Recommendation Output](./Screenshot%2025-06-02%152526.png)
 
 ### 🎯 Man of Steel
-![Man of steel](Screenshot%2025-06-02%152604.png)
+![Man of steel](./Screenshot%2025-06-02%152604.png)
