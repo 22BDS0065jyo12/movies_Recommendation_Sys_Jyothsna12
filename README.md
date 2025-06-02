@@ -25,14 +25,37 @@ A **full-stack movie recommendation platform** powered by `Streamlit`, `TMDB API
 
 ## 📂 Folder Structure
 
-movie-recommender/
-├── app.py                # Streamlit app logic
-├── movie_dict.pkl        # Serialized movie dataset
-├── similarity.pkl        # Cosine similarity matrix
+📁 movie-recommender/
+The main project directory that contains all source code, data, and configurations for your Movie Recommender App.
+
+├── app.py
+Streamlit app logic
+Contains the frontend code, movie selection interface, recommendation logic, TMDB API integration, and poster rendering.
+
+├── movie_dict.pkl
+Serialized movie dataset
+A pickled pandas.DataFrame containing metadata for each movie such as title, id, genres, etc.
+
+├── similarity.pkl
+Cosine similarity matrix
+A pickled 2D array of similarity scores used to recommend the top 5 most similar movies to a given movie.
+
 ├── .streamlit/
-│   └── config.toml       # Streamlit deployment config
-├── requirements.txt      # Python dependencies
-└── README.Rmd            # RMarkdown project documentation
+Streamlit deployment config directory
+Contains configuration files for Streamlit when deployed to the cloud.
+
+└── config.toml
+Streamlit deployment configuration
+Tells Streamlit how to run the server in a cloud or headless environment (used by platforms like Vercel or Render).
+
+├── requirements.txt
+Python dependencies
+List of required Python packages. You can install them using:
+
+pip install -r requirements.txt
+└── README.Rmd
+RMarkdown project documentation
+Formatted documentation describing the project, features, setup, and deployment instructions — ideal for GitHub or academic use.
 
 ⚙️ Local Setup
 1. Install Requirements --> pip install -r requirements.txt
