@@ -1,90 +1,61 @@
-🎥 Movie Recommender App
-A full-stack movie recommendation platform powered by Streamlit, TMDB API, and preprocessed content-based filtering logic using cosine similarity.
 
-✨ Features
-🔍 Movie Selection Dropdown
+title: "🎥 Movie Recommender App"
+output: github_document
 
-🎯 Top 5 Content-Based Recommendations
+# 🎥 Movie Recommender App
 
-🖼️ Poster Display Using TMDB API
+A **full-stack movie recommendation platform** powered by `Streamlit`, `TMDB API`, and **content-based filtering** using **cosine similarity**.
 
-⚡ Fast Response Time (via precomputed similarity matrix)
+## ✨ Features
 
-📦 Pickled Dataset Integration
+- 🔍 Movie Selection Dropdown  
+- 🎯 Top 5 Content-Based Recommendations  
+- 🖼️ Poster Display Using TMDB API  
+- ⚡ Fast Response Time (precomputed similarity matrix)  
+- 📦 Pickled Dataset Integration  
+- 🚀 Deployable via **Vercel** (Frontend) and **Render** (Backend for TMDB Proxy)
 
-💻 Deployed with Vercel (Frontend) and Render (Backend TMDB Proxy)
+## 🧪 Tech Stack
 
-🧪 Tech Stack
-Frontend	Backend	ML/Tools
-Streamlit	TMDB API (via REST)	Cosine Similarity
-HTML/CSS (auto)	Python (requests)	Scikit-learn
-Vercel/Heroku	Pickle files	Pandas, NumPy
+| Frontend        | Backend           | ML/Tools        |
+|----------------|-------------------|-----------------|
+| Streamlit      | TMDB API (REST)   | Cosine Similarity |
+| HTML/CSS (auto)| Python + Requests | Scikit-learn     |
+| Vercel         | API Key Injection | Pandas, NumPy    |
 
-📂 Folder Structure
-bash
-Copy
-Edit
+## 📂 Folder Structure
+
 movie-recommender/
-├── app.py                 # Streamlit app logic
-├── movie_dict.pkl         # Serialized movie dataset
-├── similarity.pkl         # Precomputed cosine similarity matrix
-├── .streamlit/            # Deployment config for Streamlit
-│   └── config.toml
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-⚙️ Local Setup
-1. Install Requirements
-bash
-Copy
-Edit
-pip install -r requirements.txt
-2. Run the App
-bash
-Copy
-Edit
-streamlit run app.py
-🌐 Deployment
-🔹 Frontend (Streamlit)
-To prepare for hosting on Streamlit Cloud, create the config file:
+├── app.py                # Streamlit app logic
+├── movie_dict.pkl        # Serialized movie dataset
+├── similarity.pkl        # Cosine similarity matrix
+├── .streamlit/
+│   └── config.toml       # Streamlit deployment config
+├── requirements.txt      # Python dependencies
+└── README.Rmd            # RMarkdown project documentation
 
-bash
-Copy
-Edit
+⚙️ Local Setup
+1. Install Requirements --> pip install -r requirements.txt
+2. Run the App Locally --> streamlit run app.py
+
+## 🌐 Deployment Instructions
+
+### 🔹 Frontend: Streamlit Cloud or Vercel
+
+```bash
 mkdir -p ~/.streamlit/
 
 echo "\
 [server]\n\
-port = $PORT\n\
+port = \$PORT\n\
 enableCORS = false\n\
 headless = true\n\
-\n\
 " > ~/.streamlit/config.toml
-🔹 Backend (API Key)
-You must use your TMDB API key. Replace it in fetch_poster():
-
-python
-Copy
-Edit
-api_key = "your_actual_tmdb_api_key"
-url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
 💾 Backend Data
-movie_dict.pkl: contains all processed movie metadata.
+movie_dict.pkl
+Contains a pickled pandas.DataFrame of movie metadata (title, id, etc.).
 
-similarity.pkl: similarity scores (cosine similarity) between all movies.
+similarity.pkl
+Stores a precomputed cosine similarity matrix (2D array of similarity scores between movies).
 
-These were generated from TMDB 5000 dataset (movies + credits) and preprocessed in Jupyter Notebook.
-
-📸 Screenshots
-🎞️ Interface
-<img src="https://i.imgur.com/YourDemoImage1.png" alt="Homepage" width="500"/>
-🔍 Movie Recommendation Output
-<img src="https://i.imgur.com/YourDemoImage2.png" alt="Results" width="500"/>
-🔮 Future Improvements
-Add genre & keyword filters
-
-Include user ratings and collaborative filtering
-
-Expand to hybrid recommendation models
-
-Pagination and infinite scroll for large datasets
-
+These files are derived from the TMDB 5000 Movie Dataset (movies and credits) and processed using a Jupyter Notebook pipeline.
