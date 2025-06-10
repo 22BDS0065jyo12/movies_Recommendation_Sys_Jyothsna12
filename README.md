@@ -86,10 +86,10 @@ These files are derived from the TMDB 5000 Movie Dataset (movies and credits) an
 ## Screenshots
 
 ### 🔍 Avatar
-![Avatar](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152507.png?raw=true)
+![Avatar](https://raw.githubusercontent.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/main/Screenshot%202025-06-02%20152507.png)
 
 ### 🎯 Recommendation Output
-![Recommendation Output](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152526.png?raw=true)
+![Recommendation Output](https://raw.githubusercontent.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/main/Screenshot%202025-06-02%20152526.png)
 
 ### 🎯 Man of Steel
-![Man of steel](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152604.png?raw=true)
+![Man of Steel](https://raw.githubusercontent.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/main/Screenshot%202025-06-02%20152604.png)
