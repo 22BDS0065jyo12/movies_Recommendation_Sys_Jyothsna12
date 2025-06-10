@@ -92,4 +92,4 @@ These files are derived from the TMDB 5000 Movie Dataset (movies and credits) an
 ![Recommendation Output](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152526.png?raw=true)
 
 ### 🎯 Man of Steel
-![Man of steel](./Screenshot%2025-06-02%152604.png)
+![Man of steel](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152604.png?raw=true)
