@@ -86,7 +86,7 @@ These files are derived from the TMDB 5000 Movie Dataset (movies and credits) an
 ## Screenshots
 
 ### 🔍 Avatar
-![Avatar](./Screenshot%2025-06-02%152507.png)
+![Avatar](https://github.com/22BDS0065jyo12/movies_Recommendation_Sys_Jyothsna12/blob/main/Screenshot%202025-06-02%20152507.png?raw=true)
 
 ### 🎯 Recommendation Output
 ![Recommendation Output](./Screenshot%2025-06-02%152526.png)
